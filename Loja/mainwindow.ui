@@ -14,35 +14,115 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="logIn">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>10</y>
-      <width>121</width>
-      <height>31</height>
+      <x>200</x>
+      <y>150</y>
+      <width>51</width>
+      <height>23</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background:#248;
-color:#fff;
-font-size:16pt;
-border:none;
-border-radois:10px;
-</string>
-    </property>
     <property name="text">
-     <string>buscar</string>
+     <string>Log in</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QPushButton" name="registrar">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Registrar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usuario">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="senha">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
-      <width>111</width>
-      <height>31</height>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>Usuário</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Senha</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fechar</string>
     </property>
    </widget>
   </widget>
@@ -55,14 +135,6 @@ border-radois:10px;
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menupreco">
-    <property name="title">
-     <string>preco</string>
-    </property>
-    <addaction name="actionquantidade"/>
-    <addaction name="actiontamanho"/>
-   </widget>
-   <addaction name="menupreco"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -73,16 +145,6 @@ border-radois:10px;
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionquantidade">
-   <property name="text">
-    <string>quantidade</string>
-   </property>
-  </action>
-  <action name="actiontamanho">
-   <property name="text">
-    <string>tamanho</string>
-   </property>
-  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
