@@ -2,6 +2,7 @@
 #include "ui_gerenciamento.h"
 #include "mainwindow.h"
 #include "estoque.h"
+#include "venda.h"
 
 
 Gerenciamento::Gerenciamento(QWidget *parent) :
@@ -18,7 +19,9 @@ Gerenciamento::~Gerenciamento()
 
 void Gerenciamento::on_pushButton_clicked()
 {
-
+    venda venda;
+    venda.setModal(true);
+    venda.exec();
 }
 
 void Gerenciamento::on_pushButton_2_clicked()

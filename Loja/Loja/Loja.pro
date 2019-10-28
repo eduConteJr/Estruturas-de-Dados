@@ -20,20 +20,24 @@ SOURCES += \
     gerenciamento.cpp \
     main.cpp \
     mainwindow.cpp \
-    registro.cpp
+    registro.cpp \
+    venda.cpp
 
 HEADERS += \
     estoque.h \
+    fila.h \
     gerenciamento.h \
     les.h \
     mainwindow.h \
-    registro.h
+    registro.h \
+    venda.h
 
 FORMS += \
     estoque.ui \
     gerenciamento.ui \
     mainwindow.ui \
-    registro.ui
+    registro.ui \
+    venda.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
