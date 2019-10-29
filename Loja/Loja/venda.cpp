@@ -152,5 +152,13 @@ void venda::on_pushButton_4_clicked()
 
 void venda::on_pushButton_5_clicked()
 {
-
+    //Exemplo para computar o total da compra
+    float total = 0;
+    while(!fila.vazia()){
+        produto x = fila.remove();
+        total = total + x.valor;   
+    }
+    
+    QMessageBox::warning(NULL, "Total", QString("Total da compra")+QString(total));
+    
 }
