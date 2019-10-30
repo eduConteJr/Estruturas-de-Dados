@@ -1,19 +1,20 @@
-#ifndef GERENCIAMENTO_H
-#define GERENCIAMENTO_H
+#ifndef VENDA_H
+#define VENDA_H
 
 #include <QDialog>
+#include "lde.h"
 
 namespace Ui {
-class gerenciamento;
+class venda;
 }
 
-class Gerenciamento : public QDialog
+class venda : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit Gerenciamento(QWidget*parent = nullptr);
-    ~Gerenciamento();
+    explicit venda(QWidget *parent = nullptr);
+    ~venda();
 
 private slots:
     void on_pushButton_clicked();
@@ -24,8 +25,10 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_pushButton_5_clicked();
+
 private:
-    Ui::gerenciamento*ui;
+    Ui::venda *ui;
 };
 
-#endif // GERENCIAMENTO_H
+#endif // VENDA_H

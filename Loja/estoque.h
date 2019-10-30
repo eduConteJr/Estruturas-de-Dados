@@ -1,19 +1,20 @@
-#ifndef GERENCIAMENTO_H
-#define GERENCIAMENTO_H
+#ifndef ESTOQUE_H
+#define ESTOQUE_H
 
 #include <QDialog>
+#include "les.h"
 
 namespace Ui {
-class gerenciamento;
+class estoque;
 }
 
-class Gerenciamento : public QDialog
+class estoque : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit Gerenciamento(QWidget*parent = nullptr);
-    ~Gerenciamento();
+    explicit estoque(QWidget *parent = nullptr);
+    ~estoque();
 
 private slots:
     void on_pushButton_clicked();
@@ -25,7 +26,7 @@ private slots:
     void on_pushButton_4_clicked();
 
 private:
-    Ui::gerenciamento*ui;
+    Ui::estoque *ui;
 };
 
-#endif // GERENCIAMENTO_H
+#endif // ESTOQUE_H

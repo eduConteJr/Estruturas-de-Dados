@@ -33,7 +33,7 @@ void Registro::on_pushButton_2_clicked()
         QMessageBox::warning(this,"ERRO","Senhas diferentes");
         return;
     }
-    if(ui->lineEdit->text() == " " || ui->lineEdit_2->text() == " " || ui->lineEdit_3->text() == " "){ //CAMPO VAZIO
+    if(ui->lineEdit->text() == "" || ui->lineEdit_2->text() == "" || ui->lineEdit_3->text() == ""){ //CAMPO VAZIO
         QMessageBox::warning(this,"ERRO","Complete todos os campos");
         return;
     }
