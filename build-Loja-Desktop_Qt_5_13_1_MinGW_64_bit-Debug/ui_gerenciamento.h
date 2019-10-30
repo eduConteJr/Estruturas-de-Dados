@@ -52,7 +52,7 @@ public:
         gerenciamento->setWindowTitle(QCoreApplication::translate("gerenciamento", "Dialog", nullptr));
         pushButton->setText(QCoreApplication::translate("gerenciamento", "Venda", nullptr));
         pushButton_2->setText(QCoreApplication::translate("gerenciamento", "Estoque", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("gerenciamento", "Produtos", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("gerenciamento", "Clientes", nullptr));
         pushButton_4->setText(QCoreApplication::translate("gerenciamento", "Sair", nullptr));
     } // retranslateUi
 

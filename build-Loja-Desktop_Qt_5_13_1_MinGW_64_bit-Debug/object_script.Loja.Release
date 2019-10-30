@@ -1,0 +1,13 @@
+release/cliente.o
+release/estoque.o
+release/gerenciamento.o
+release/main.o
+release/mainwindow.o
+release/registro.o
+release/venda.o
+release/moc_cliente.o
+release/moc_estoque.o
+release/moc_gerenciamento.o
+release/moc_mainwindow.o
+release/moc_registro.o
+release/moc_venda.o
